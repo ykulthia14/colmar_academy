@@ -17,3 +17,37 @@ header{
     width: 100%;
     z-index: 2;
 }
+header #logo{
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 2rem;
+    vertical-align: middle;
+}
+header #logo-text{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+header #logo-text-2{
+    font-size: 32px;
+    color: grey;
+}
+header ul.desktop{
+    display: inline-flex;
+}
+header ul.mobile{
+    display: none;
+    width: 100%;
+}
+ul:hover a[href]{
+    color: black;
+}
+ul:hover a[href]:hover{
+    color: midnightblue;
+}
+header a{
+    display: inline-block;
+    padding: 16px;
+}
