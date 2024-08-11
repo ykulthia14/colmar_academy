@@ -49,5 +49,5 @@ ul:hover a[href]:hover{
 }
 header a{
     display: inline-block;
-    padding: 16px;
+    padding: .5rem;
 }
