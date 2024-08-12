@@ -198,3 +198,73 @@ button{
     color: gray;
     padding-left: 16px;
 }
+#thesis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 100%;
+}
+#thesis h2{
+    text-align: center;
+    color: rgb(64, 64, 64);
+    width: 100%;
+    padding: 32px 0;
+}
+#thesis-main{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+    width: 60%;
+}
+#thesis-main video{
+    margin-bottom: 24px;
+    width: 100%;
+}
+#thesis-featured{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    width: 40%
+}
+#thesis-featured .items{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+#thesis-featured .items img{
+    width: 35%;
+}
+#thesis-featured .items .content{
+    margin-left: 16px;
+    color: rgb(64, 64, 64);
+}
+#thesis-featured .items:hover{
+    background-color: rgb(207, 207, 207);
+}
+#thesis-main #content{
+    color: rgb(64, 64, 64);
+}
+footer{
+    width: 100%
+}
+footer .content{
+    align-items: baseline;
+    border-top: solid 1px rgb(207, 207, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 24px;
+    color: rgb(207, 207, 207);
+}
+footer ul{
+    list-style: none;
+    display: inline-flex;
+}
+.footer_option{
+    padding-right: 16px;
+    color: rgb(207, 207, 207);
+}
+
