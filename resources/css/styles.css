@@ -111,11 +111,41 @@ button{
     width: 100%;
     margin-bottom: 24px;
 }
-#infomration-main h1{
-    color: rgb(86, 85, 85);
-}
 #information-main p{
     color: gray;
     padding-bottom: 32px;
     padding-top: 70px;
+}
+#information #content{
+    color: rgb(64, 64, 64);
+}
+#featured{
+    border-left: 1px solid rgb(207, 207, 207);
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    width: 40%;
+}
+.items h3, .items p, .items a{
+    margin-bottom: 8px;
+}
+#featured .items{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.2s ease-in-out;
+    padding: 16px;
+}
+#featured .items:hover{
+    background-color: rgb(207, 207, 207);
+}
+#featured .items img.desktop{
+    width: 35%;
+}
+#featured .items img.mobile{
+    display: none;
+}
+#featured .items #content{
+    margin-left: 16px;
 }
