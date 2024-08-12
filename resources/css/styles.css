@@ -152,3 +152,49 @@ button{
 .items a{
     color: dodgerblue;
 }
+#courses{
+    align-items: center;
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    flex-direction: column;
+    padding: 32px 72px;
+    width: 100%;
+    height: fit-content
+}
+#courses h2{
+    text-align: center;
+    margin-bottom: 32px;
+    width: 100%;
+    color: rgb(64, 64, 64);
+}
+#courses-list{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#courses .items{
+    background-color: white;
+    margin: 0 16px 32px;
+    max-width: 30%;
+}
+#courses .items img{
+    width: 100%;
+    height: auto;
+}
+#courses .items .content{
+    padding: 16px 16px 24px;
+}
+#courses .items h3{
+    padding-left: 16px;
+}
+#courses .items h4{
+    color: gray;
+    font-weight: lighter;
+    padding-left: 16px;
+}
+#courses .items p{
+    color: gray;
+    padding-left: 16px;
+}
